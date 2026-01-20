@@ -836,7 +836,7 @@ jobs:
 
         - name: Create Archive
           run: >
-            mkdir sdrpp_all && 
+            mkdir sdrpp_all && echo "
             # mv sdrpp_windows_x64/sdrpp_windows_x64.zip sdrpp_all/ && 
             # mv sdrpp_macos_intel/sdrpp_macos_intel.zip sdrpp_all/ && 
             # mv sdrpp_macos_arm/sdrpp_macos_arm.zip sdrpp_all/ && 
@@ -855,7 +855,7 @@ jobs:
             # mv sdrpp_ubuntu_noble_amd64/sdrpp_debian_amd64.deb sdrpp_all/sdrpp_ubuntu_noble_amd64.deb &&
             # mv sdrpp_ubuntu_noble_aarch64/sdrpp_debian_amd64.deb sdrpp_all/sdrpp_ubuntu_noble_aarch64.deb &&
             # mv sdrpp_ubuntu_oracular_amd64/sdrpp_debian_amd64.deb sdrpp_all/sdrpp_ubuntu_oracular_amd64.deb &&
-            # mv sdrpp_ubuntu_oracular_aarch64/sdrpp_debian_amd64.deb sdrpp_all/sdrpp_ubuntu_oracular_aarch64.deb &&
+            # mv sdrpp_ubuntu_oracular_aarch64/sdrpp_debian_amd64.deb sdrpp_all/sdrpp_ubuntu_oracular_aarch64.deb " &&
             mv sdrpp_android/sdrpp.apk sdrpp_all/sdrpp.apk
 
       
